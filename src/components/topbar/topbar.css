@@ -7,6 +7,7 @@
    display: flex;
    align-items: center;
    font-family: 'Josephine Sans' sans-serif;
+ 
 }
 .topLeft, .topRight{
   flex:3;
@@ -29,8 +30,9 @@
 .topListItem{
  margin-right: 20px;
  font-size: 18px;
- font-weight: 300;
  cursor: pointer;
+ font-weight: 100;
+ font-family: "Lora",serif;
 }
 .topImg{
  width:40px;

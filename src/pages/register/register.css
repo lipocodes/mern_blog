@@ -1,44 +1,45 @@
-.login{
+.register{
  height:100vh;
  display:flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
- background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/768473/pexels-photo-768473.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+ background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
  background-size: cover;
  position:relative;
 }
-.loginForm{
+.registerForm{
  margin-top: 20px;
  display:flex;
  flex-direction: column;
 }
-.loginForm>label{
+.registerForm>label{
   margin: 10px 0;  
 }
-.loginButton{
+.registerButton{
  margin-top: 20px;
  cursor:pointer;
- background-color: lightcoral;
+ background-color: teal;
  border:none;
  border-radius: 10px;
  color:white;
+ padding:10px;
 }
-.loginRegisterButton{
+.registerLoginButton{
  position:absolute;
  top: 60px;
  right:20px;
- background-color: teal;
+ background-color: lightcoral;
  border:none;
  padding:10px;
  border-radius: 10px;
  cursor:pointer;
  color:white;
 }
-.loginTitle{
+.registerTitle{
   font-size: 50px;  
 }
-.loginInput{
+.registerInput{
  padding:10px;
  background-color:white;
  border:none;   
